@@ -1,0 +1,189 @@
+/* .....Main...... */
+.navbarbox{
+    width: 80%;
+display: flex;
+margin: auto;
+justify-content: space-between;
+height: 60px;
+
+}
+
+.navbarbox>:nth-child(1){
+    width: 30%;
+}
+.navbarbox>:nth-child(2){
+    width: 10%;
+}
+.navbarbox>:nth-child(3){
+    width: 40%;
+}
+
+
+
+
+/* ...Contet box... */
+
+.content_box{
+width:90% ;
+font-size: 13px;
+margin: auto;
+}
+.content_box>ul{
+display: flex;
+justify-content: space-between;
+}
+.content_box>ul>li:hover{
+color:#EF6D58 ;
+}
+.content_box>ul>*{
+    list-style: none;
+
+}
+
+
+
+/* .........logo......... */
+.logo{
+    width: 30%;
+    margin: auto;
+    margin-left: 100px;
+    display: flex;
+
+}
+.logo>ul{
+    display: flex;
+    /* justify-content: space-around; */
+}
+.logo>ul>*{
+    list-style: none;
+    height: 20px;
+}
+.logo>ul>li>*{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+/* ..........endbox........ */
+
+.outerendbox{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin-left: 20px;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.outerendbox>:nth-child(1){
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+.bagbox{
+    display: flex;
+justify-content: space-between;
+width: 30%;
+align-items: center;
+}
+
+.bagbox>:nth-child(2){
+cursor: pointer;
+}
+.bagbox>*{
+    width: 20px;
+    height: 20px;
+}
+
+
+
+/* ....... */
+.mymodal{
+    width: 1000px;
+}
+.mainboxmodal{
+    background: #EF6D58;
+    display: flex;
+    width: 100%;
+}
+.mainboxmodal>:nth-child(1){
+   
+    display: flex;
+    width:50%;
+}
+
+.my1{
+
+    border-radius: 20px;
+
+}
+.my{
+
+margin: 0px;
+padding: 0px;
+    border-radius: 20px;
+}
+.btnstack{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 40px;
+    font-size: 12px;
+    
+}
+.btnstack>:nth-child(1){
+background: #EF6D58;
+  ;
+  font-size: 15px;
+}
+.btnstack>:nth-child(2){
+    background: #263238;
+    font-size: 13px;
+}
+
+.rightside{
+    width: 50%;
+    background: #F6EFE2;
+    padding-left: 20px;
+   
+    /* padding: 10px; */
+
+}
+.rightside>:nth-child(1){
+   font-size: 30px;
+   margin-top: 40px;
+
+}
+.rightside>:nth-child(2)>*{
+   font-size: 10px;
+
+}
+.rightside>:nth-child(3){
+   font-size: 10px;
+   margin-top: 20px;
+
+}
+.inputs{
+    width: 80%;
+    height: 30px;
+    margin: auto;
+
+    border-radius: 0px;
+    border: none;
+    border-bottom: 1px solid #EF6D58;
+}
+.lables{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 10px;
+}
